@@ -56,14 +56,19 @@ option:checked {
     padding: 5% 0 5% 0;
 }
 
-.info-input p{
-    color: #87999F;
-    text-align: center;
+.lyrics-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lyrics {
     text-align: left;
     padding: 0 0 6% 0;
+}
+
+.lyrics p{
+    color: #87999F;
 }
 
 .buttons {
