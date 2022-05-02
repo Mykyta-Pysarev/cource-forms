@@ -23,6 +23,7 @@ h1 {
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
+    min-width: max-content;
     border-radius: 2%;
     box-shadow: 8px 8px 4px #87999F, 0 0 8px #87999F;
     background-color: white;
@@ -65,6 +66,7 @@ option:checked {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 3%;
 }
 
 .lyrics {
