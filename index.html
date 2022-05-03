@@ -14,16 +14,18 @@
     <div class="info">
       <section class="info-input">
         <h2>Personal information:</h2>
-        <input type="text" placeholder="First name">
-        <input type="text" placeholder="Surname">
-        <input type="date" placeholder="Birthdate">
-        <input type="number" placeholder="Insurance number">
-        <select>
-          <option value="default">Chose your family status...</option>
-          <option value="1">Single</option>
-          <option value="2">Married</option>
-          <option value="3">Other</option>
-        </select>
+        <form>
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Surname">
+          <input type="date" id="birthday" name="birthday" placeholder="Birthdate: "></input>
+          <input type="number" placeholder="Insurance number">
+          <select name="Family-status">
+            <option value="default">Chose your family status...</option>
+            <option value="1">Single</option>
+            <option value="2">Married</option>
+            <option value="3">Other</option>
+          </select>
+        </form>
         <section class="buttons">
          <a class="next" href="./address.html">Next</a>
         </section>
